@@ -1,0 +1,121 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search,
+.updateSearch {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+.updateSearch {
+  margin-top: 50px;
+  border: none;
+  background-color: rgba(28, 235, 235, 0.564);
+  border-radius: 25px;
+}
+.popup {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 20%;
+  margin-left: 10%;
+}
+.popup-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.inputer {
+  width: 60%;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: rgba(150, 218, 150, 0.605);
+  border-radius: 12px;
+  padding-left: 10px;
+}
+.adder {
+  margin-top: 10px;
+}
+button {
+  margin-top: 20px;
+  height: 40px;
+  padding: 10px 0;
+  width: 61%;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: bisque;
+  border: none;
+  color: rgba(0, 0, 0, 0.703);
+}
+
+.getButton,
+.addButton {
+  margin: 20px;
+  width: 130px;
+}
+.list {
+  margin-top: 50px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  background-color: rgba(28, 235, 235, 0.564);
+  border-radius: 25px;
+}
+
+.header,
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  border-top: 1px solid black;
+}
+.index,
+.book-name,
+.author,
+.title,
+.author-name,
+.icon {
+  width: 175px;
+  height: 30px;
+  background-color: rgb(187, 167, 36);
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.index {
+  width: 30px;
+  border-left: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding-left: 0;
+}
+
+.icon {
+  width: 40px;
+  padding-left: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2px;
+  color: rgba(26, 79, 17, 0.881);
+}
+.trash {
+  color: red;
+}
+.cancel-button {
+  margin-top: 0;
+}
